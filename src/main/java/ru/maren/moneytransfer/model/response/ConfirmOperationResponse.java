@@ -6,5 +6,5 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class ConfirmOperationResponse {
-    String operationId;
+    private String operationId;
 }

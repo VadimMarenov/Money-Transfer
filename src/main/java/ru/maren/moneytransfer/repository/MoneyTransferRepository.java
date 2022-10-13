@@ -13,10 +13,10 @@ import java.util.concurrent.atomic.AtomicLong;
 @Repository
 public class MoneyTransferRepository {
     Random random = new Random();
-    private AtomicLong operationId = new AtomicLong();
-    private Map<String, Card> cardMap = new ConcurrentHashMap<>();
-    private Map<String, String> codes = new ConcurrentHashMap<>();
-    private Map<String, TransferRequest> readyToTransfer = new ConcurrentHashMap<>();
+    private final AtomicLong operationId = new AtomicLong();
+    private final Map<String, Card> cardMap = new ConcurrentHashMap<>();
+    private final Map<String, String> codes = new ConcurrentHashMap<>();
+    private final Map<String, TransferRequest> readyToTransfer = new ConcurrentHashMap<>();
 
     {
         String cardNumber1 = "1234815162342321";
@@ -24,7 +24,7 @@ public class MoneyTransferRepository {
 
         cardMap.put(cardNumber1, new Card(cardNumber1, "12/23", "123",
                 new Amount(100_000, "RUB")));
-        cardMap.put(cardNumber2, new Card(cardNumber2, "34/30", "456",
+        cardMap.put(cardNumber2, new Card(cardNumber2, "04/30", "456",
                 new Amount(740_000, "RUB")));
     }
 
