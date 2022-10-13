@@ -1,99 +1,14 @@
-2022-10-13 15:08:23.827  INFO 24890 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 24890 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
-2022-10-13 15:08:23.832  INFO 24890 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
-2022-10-13 15:08:25.273  INFO 24890 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2022-10-13 15:08:25.282  INFO 24890 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-10-13 15:08:25.282  INFO 24890 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-13 15:08:25.507  INFO 24890 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-10-13 15:08:25.507  INFO 24890 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1521 ms
-2022-10-13 15:08:25.817  INFO 24890 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2022-10-13 15:08:25.824  INFO 24890 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 2.841 seconds (JVM running for 4.001)
-2022-10-13 15:08:51.050  INFO 24890 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-13 15:08:51.051  INFO 24890 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-13 15:08:51.052  INFO 24890 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-10-13 15:08:51.202  INFO 24890 --- [http-nio-5500-exec-4] r.m.m.service.MoneyTransferService       : Transfer 100000, commission 1000. Before: cardFromValue 100000, cardToValue 740000. After: cardFromValue 0, cardToValue 839000.
-2022-10-13 15:13:32.104  INFO 25112 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 25112 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
-2022-10-13 15:13:32.106  INFO 25112 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
-2022-10-13 15:13:32.574  INFO 25112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2022-10-13 15:13:32.580  INFO 25112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-10-13 15:13:32.580  INFO 25112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-13 15:13:32.624  INFO 25112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-10-13 15:13:32.624  INFO 25112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 486 ms
-2022-10-13 15:13:32.837  INFO 25112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2022-10-13 15:13:32.844  INFO 25112 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 0.95 seconds (JVM running for 1.302)
-2022-10-13 15:14:05.356  INFO 25112 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-13 15:14:05.356  INFO 25112 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-13 15:14:05.357  INFO 25112 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-10-13 15:14:05.486  INFO 25112 --- [http-nio-5500-exec-2] r.m.m.service.MoneyTransferService       : Transfer 100000, commission 1000. Before: cardFromValue 100000, cardToValue 740000. After: cardFromValue 0, cardToValue 839000.
-2022-10-13 15:14:36.934 ERROR 25112 --- [http-nio-5500-exec-3] r.m.m.h.ControllerExceptionHandler       : Insufficient funds
-2022-10-13 15:14:59.925 ERROR 25112 --- [http-nio-5500-exec-4] r.m.m.h.ControllerExceptionHandler       : Incorrect data entered: Wrong cardFrom number
-2022-10-13 15:15:15.973 ERROR 25112 --- [http-nio-5500-exec-5] r.m.m.h.ControllerExceptionHandler       : Incorrect data entered
-2022-10-13 15:15:55.615  INFO 25322 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 25322 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
-2022-10-13 15:15:55.616  INFO 25322 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
-2022-10-13 15:15:56.098  INFO 25322 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2022-10-13 15:15:56.104  INFO 25322 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-10-13 15:15:56.104  INFO 25322 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-13 15:15:56.149  INFO 25322 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-10-13 15:15:56.149  INFO 25322 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 501 ms
-2022-10-13 15:15:56.388  INFO 25322 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2022-10-13 15:15:56.397  INFO 25322 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 1.003 seconds (JVM running for 1.324)
-2022-10-13 15:16:06.828  INFO 25322 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-13 15:16:06.828  INFO 25322 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-13 15:16:06.829  INFO 25322 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-10-13 15:16:06.941 ERROR 25322 --- [http-nio-5500-exec-1] r.m.m.h.ControllerExceptionHandler       : Insufficient funds
-2022-10-13 15:16:38.045 ERROR 25322 --- [http-nio-5500-exec-2] r.m.m.h.ControllerExceptionHandler       : Insufficient funds
-2022-10-13 15:16:43.789 ERROR 25322 --- [http-nio-5500-exec-3] r.m.m.h.ControllerExceptionHandler       : Insufficient funds
-2022-10-13 15:17:52.285  INFO 25451 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 25451 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
-2022-10-13 15:17:52.286  INFO 25451 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
-2022-10-13 15:17:52.769  INFO 25451 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2022-10-13 15:17:52.775  INFO 25451 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-10-13 15:17:52.775  INFO 25451 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-13 15:17:52.819  INFO 25451 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-10-13 15:17:52.819  INFO 25451 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 498 ms
-2022-10-13 15:17:53.032  INFO 25451 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2022-10-13 15:17:53.039  INFO 25451 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 0.971 seconds (JVM running for 1.273)
-2022-10-13 15:18:07.815  INFO 25451 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-13 15:18:07.816  INFO 25451 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-13 15:18:07.816  INFO 25451 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-10-13 15:18:07.918 ERROR 25451 --- [http-nio-5500-exec-1] r.m.m.h.ControllerExceptionHandler       : Insufficient funds
-2022-10-13 15:18:12.193  INFO 25451 --- [http-nio-5500-exec-3] r.m.m.service.MoneyTransferService       : Transfer 111000, commission 1110. Before: cardFromValue 740000, cardToValue 100000. After: cardFromValue 629000, cardToValue 209890.
-2022-10-13 15:19:16.382  INFO 25451 --- [http-nio-5500-exec-6] r.m.m.service.MoneyTransferService       : Transfer 100000, commission 1000. Before: cardFromValue 209890, cardToValue 629000. After: cardFromValue 109890, cardToValue 728000.
-2022-10-13 15:23:27.081  INFO 25643 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 25643 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
-2022-10-13 15:23:27.082  INFO 25643 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
-2022-10-13 15:23:27.544  INFO 25643 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2022-10-13 15:23:27.549  INFO 25643 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-10-13 15:23:27.550  INFO 25643 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-13 15:23:27.596  INFO 25643 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-10-13 15:23:27.597  INFO 25643 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 483 ms
-2022-10-13 15:23:27.837  INFO 25643 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2022-10-13 15:23:27.848  INFO 25643 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 0.979 seconds (JVM running for 1.323)
-2022-10-13 15:23:50.168  INFO 25643 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-13 15:23:50.169  INFO 25643 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-13 15:23:50.170  INFO 25643 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-10-13 15:23:50.306  INFO 25643 --- [http-nio-5500-exec-2] r.m.m.service.MoneyTransferService       : Transfer 100, commission 1. Before: cardFromValue 740000, cardToValue 100000. After: cardFromValue 739900, cardToValue 100099.
-2022-10-13 15:30:22.529  INFO 25643 --- [http-nio-5500-exec-5] r.m.m.service.MoneyTransferService       : Transfer 200, commission 2. Before: cardFromValue 100099, cardToValue 739900. After: cardFromValue 99899, cardToValue 740098.
-2022-10-13 15:32:04.567  INFO 25923 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 25923 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
-2022-10-13 15:32:04.569  INFO 25923 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
-2022-10-13 15:32:05.044  INFO 25923 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2022-10-13 15:32:05.050  INFO 25923 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-10-13 15:32:05.050  INFO 25923 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-13 15:32:05.094  INFO 25923 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-10-13 15:32:05.094  INFO 25923 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 491 ms
-2022-10-13 15:32:05.305  INFO 25923 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2022-10-13 15:32:05.312  INFO 25923 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 0.963 seconds (JVM running for 1.289)
-2022-10-13 15:32:57.197  INFO 25923 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-13 15:32:57.197  INFO 25923 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-13 15:32:57.198  INFO 25923 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-10-13 15:32:57.313  INFO 25923 --- [http-nio-5500-exec-2] r.m.m.service.MoneyTransferService       : Transfer 1000, commission 10. Before: cardFromValue 100000, cardToValue 740000. After: cardFromValue 99000, cardToValue 740990.
-2022-10-13 15:35:02.509  INFO 26158 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 26158 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
-2022-10-13 15:35:02.511  INFO 26158 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
-2022-10-13 15:35:02.982  INFO 26158 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2022-10-13 15:35:02.988  INFO 26158 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-10-13 15:35:02.988  INFO 26158 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-13 15:35:03.038  INFO 26158 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-10-13 15:35:03.039  INFO 26158 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 495 ms
-2022-10-13 15:35:03.245  INFO 26158 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2022-10-13 15:35:03.252  INFO 26158 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 0.95 seconds (JVM running for 1.259)
-2022-10-13 15:35:09.200  INFO 26158 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-13 15:35:09.201  INFO 26158 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-13 15:35:09.202  INFO 26158 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-10-13 15:35:09.328  INFO 26158 --- [http-nio-5500-exec-2] r.m.m.service.MoneyTransferService       : Transfer 1000, commission 10. Before: cardFromValue 100000, cardToValue 740000. After: cardFromValue 99000, cardToValue 740990.
+2022-10-13 16:10:04.451  INFO 29398 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 29398 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
+2022-10-13 16:10:04.453  INFO 29398 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-10-13 16:10:04.940  INFO 29398 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
+2022-10-13 16:10:04.946  INFO 29398 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-13 16:10:04.946  INFO 29398 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 16:10:04.990  INFO 29398 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-13 16:10:04.990  INFO 29398 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 505 ms
+2022-10-13 16:10:05.223  INFO 29398 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
+2022-10-13 16:10:05.230  INFO 29398 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 0.993 seconds (JVM running for 1.342)
+2022-10-13 16:11:02.258  INFO 29398 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-13 16:11:02.258  INFO 29398 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-13 16:11:02.259  INFO 29398 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-13 16:11:02.375 ERROR 29398 --- [http-nio-5500-exec-1] r.m.m.h.ControllerExceptionHandler       : Insufficient funds
+2022-10-13 16:11:15.368  INFO 29398 --- [http-nio-5500-exec-4] r.m.m.service.MoneyTransferService       : Transfer 12, commission 0. Before: cardFromValue 100000, cardToValue 740000. After: cardFromValue 99988, cardToValue 740012.
