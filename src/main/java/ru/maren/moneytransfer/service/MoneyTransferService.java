@@ -95,7 +95,8 @@ public class MoneyTransferService {
         Amount amountCardFrom = cardFrom.getAmount();
 
         Amount transferAmount = transferRequest.getAmount();
-        if (amountCardFrom.getValue() < transferAmount.getValue()) {
+        int transferValue = transferAmount.getValue() / 100;
+        if (amountCardFrom.getValue() < transferValue) {
             throw new InputDataException("Insufficient funds");
         }
     }
